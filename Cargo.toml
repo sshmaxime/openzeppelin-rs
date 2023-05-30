@@ -1,0 +1,16 @@
+[package]
+name = "openzeppelin-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = "2.0.4"
+ethers-solc = "2.0.6"
+flate2 = "1.0.26"
+git2 = "0.17.2"
+reqwest = "0.11.18"
+serde = "1.0.163"
+serde_json = "1.0.96"
+tar = "0.4.38"
+tempfile = "3.5.0"
+walkdir = "2.3.3"
