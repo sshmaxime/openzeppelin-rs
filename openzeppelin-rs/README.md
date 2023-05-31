@@ -1,7 +1,5 @@
 # openzeppelin-rs
 
-> The library is actually located in the openzeppelin-rs folder.
-
 ## Quickstart
 
 > This library depends on `ethers-rs`. If you haven't already added it to your project you can do it with `cargo add ethers`.
