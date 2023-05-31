@@ -1,1 +1,1 @@
-./openzeppelin-rs/README.md
+openzeppelin-rs/README.md
