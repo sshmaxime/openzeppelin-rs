@@ -1,0 +1,13 @@
+[package]
+name = "openzeppelin-rs"
+version = "0.1.0"
+edition = "2021"
+authors = [ "sshmaxime <sshmaxime@gmail.com>" ]
+repository = "https://github.com/sshmaxime/openzeppelin-rs"
+keywords = [ "crypto", "web3", "blockchain", "openzeppelin", "typings" ]
+
+[lib]
+
+[dependencies]
+ethers = "2.0.6"
+
