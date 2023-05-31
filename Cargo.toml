@@ -1,23 +1,13 @@
 [package]
-name = "openzeppelin-rs"
+name = "openzeppelin-rs-generator"
 version = "0.1.0"
 edition = "2021"
-authors = [ "sshmaxime <sshmaxime@gmail.com>" ]
-description = "Typings for Openzeppelin's contracts in Rust using ethers."
-repository = "https://github.com/sshmaxime/openzeppelin-rs"
-keywords = [ "crypto", "web3", "blockchain", "openzeppelin", "typings" ]
-license = "MIT"
-exclude = [
-    "abis/*",
-    "build.rs"
-]
 
 [dependencies]
-ethers = "2.0.6"
-
-[build-dependencies]
-ethers = "2.0.6"
-ethers-solc = "2.0.6"
+ethers-contract-abigen = "2.0.6"
+ethers-contract = "2.0.6"
+ethers-core = "2.0.6"
+ethers-providers = "2.0.6"
 flate2 = "1.0.26"
 git2 = "0.17.2"
 reqwest = { version = "0.11.18", features = ["blocking"] }

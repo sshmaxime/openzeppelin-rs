@@ -1,0 +1,14 @@
+[package]
+name = "openzeppelin-rs"
+version = "0.1.1"
+edition = "2021"
+authors = [ "sshmaxime <sshmaxime@gmail.com>" ]
+description = "Typings for Openzeppelin's contracts in Rust using ethers."
+repository = "https://github.com/sshmaxime/openzeppelin-rs"
+keywords = [ "crypto", "web3", "blockchain", "openzeppelin", "typings" ]
+license = "MIT"
+
+[dependencies]
+ethers-contract = "2.0.6"
+ethers-core = "2.0.6"
+ethers-providers = "2.0.6"
