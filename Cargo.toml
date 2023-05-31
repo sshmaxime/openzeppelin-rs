@@ -1,12 +1,22 @@
-[workspace]
-
 [package]
-name = "openzeppelin-rs-gen"
+name = "openzeppelin-rs"
 version = "0.1.0"
 edition = "2021"
+authors = [ "sshmaxime <sshmaxime@gmail.com>" ]
+description = "Typings for Openzeppelin's contracts in Rust using ethers."
+repository = "https://github.com/sshmaxime/openzeppelin-rs"
+keywords = [ "crypto", "web3", "blockchain", "openzeppelin", "typings" ]
+license = "MIT"
+exclude = [
+    "abis/*",
+    "build.rs"
+]
 
 [dependencies]
-ethers = "2.0.4"
+ethers = "2.0.6"
+
+[build-dependencies]
+ethers = "2.0.6"
 ethers-solc = "2.0.6"
 flate2 = "1.0.26"
 git2 = "0.17.2"
@@ -16,4 +26,3 @@ serde_json = "1.0.96"
 tar = "0.4.38"
 tempfile = "3.5.0"
 walkdir = "2.3.3"
-openzeppelin-rs = { path = "lib" }
